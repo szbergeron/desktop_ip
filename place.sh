@@ -1,6 +1,6 @@
 #!/bin/bash
 
-until ping -c1 google.com; do sleep 10; done;
+until ping -c1 google.com > /dev/null 2>&1; do sleep 10; done;
 
 original_directory='pwd'
 
@@ -8,7 +8,7 @@ cd ~/dip/desktop_ip/
 
 git pull > /dev/null 2>&1
 
-git add -A
+git add -A > /dev/null 2>&1
 git commit -m "fix other ip"
 git push
 
