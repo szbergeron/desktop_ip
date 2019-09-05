@@ -19,7 +19,7 @@ ssh-agent bash -c 'ssh-add /home/sawyer/.ssh/id_rsa; git push'
 
 while [true]
 do
-  git pull
+  ssh-agent bash -c 'ssh-add /home/sawyer/.ssh/id_rsa; git pull'
 
   dowake='cat wakeup'
 
