@@ -11,6 +11,6 @@
 4: wls7: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
     link/ether 9c:b6:d0:e0:22:c5 brd ff:ff:ff:ff:ff:ff
     inet 10.21.137.63/16 brd 10.21.255.255 scope global dynamic noprefixroute wls7
-       valid_lft 2099sec preferred_lft 2099sec
+       valid_lft 1980sec preferred_lft 1980sec
     inet6 fe80::7209:ba07:ad1c:8345/64 scope link noprefixroute 
        valid_lft forever preferred_lft forever
