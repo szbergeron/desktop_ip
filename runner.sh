@@ -1,5 +1,6 @@
 #!/bin/bash
 
+until ping -c1 google.com; do sleep 1; done;
 
 
 cd /home/sawyer/ip
