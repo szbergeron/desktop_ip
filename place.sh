@@ -14,6 +14,10 @@ echo $actual_ip
 
 ssh sawyer@$actual_ip
 
+git add -A
+git commit -m "fix other ip"
+git push
+
 cd $pwd
 
 
