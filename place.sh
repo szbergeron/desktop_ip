@@ -8,15 +8,15 @@ cd ~/dip/desktop_ip/
 
 git pull > /dev/null 2>&1
 
+git add -A
+git commit -m "fix other ip"
+git push
+
 actual_ip=$(cat README.md | grep "inet 10" | grep -e "10\.[0-9]*\.[0-9]*\.[0-9]*" -o -m 1 | head -1)
 
 echo $actual_ip
 
 ssh sawyer@$actual_ip
-
-git add -A
-git commit -m "fix other ip"
-git push
 
 cd $pwd
 
