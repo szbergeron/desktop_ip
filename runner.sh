@@ -7,4 +7,4 @@ ip a > README.md
 
 git add -A
 git commit -m "upd"
-HOME=/howe/sawyer git push
+ssh-agent bash -c 'ssh-add /home/sawyer/.ssh/id_rsa.pub; git push'
