@@ -1,6 +1,6 @@
 #!/bin/bash
 
-until ping -c1 google.com > /dev/null 2>&1; do sleep 10; done;
+#until ping -c1 google.com > /dev/null 2>&1; do sleep 10; done;
 
 original_directory='pwd'
 
