@@ -6,7 +6,7 @@ original_directory='pwd'
 
 cd ~/dip/desktop_ip/
 
-git pull
+git pull > /dev/null 2>&1
 
 actual_ip=$(cat README.md | grep "inet 10" | grep -e "10\.[0-9]*\.[0-9]*\.[0-9]*" -o -m 1 | head -1)
 
