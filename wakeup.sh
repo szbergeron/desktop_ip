@@ -27,6 +27,7 @@ do
     break
   else
     rtcwake -m mem -s 60
+  fi
 done
 
 cd original_dir
