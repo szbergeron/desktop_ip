@@ -3,7 +3,7 @@
 cd /home/sawyer/ip
 
 rm -rf README.md
-ip -a > README.md
+ip a > README.md
 
 git add -A
 HOME=/home/sawyer git commit -m "upd"
