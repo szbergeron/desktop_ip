@@ -12,7 +12,7 @@ actual_ip=$(cat README.md | grep "inet 10" | grep -e "10\.[0-9]*\.[0-9]*\.[0-9]*
 
 echo $actual_ip
 
-$(ssh sawyer@$actual_ip)
+ssh sawyer@$actual_ip
 
 cd $pwd
 
