@@ -17,7 +17,7 @@ git add -A
 git commit -m "going into sleep..."
 ssh-agent bash -c 'ssh-add /home/sawyer/.ssh/id_rsa; git push'
 
-while [true]
+while [1]
 do
   ssh-agent bash -c 'ssh-add /home/sawyer/.ssh/id_rsa; git pull'
 
