@@ -23,7 +23,7 @@ do
 
   dowake=$(cat wakeup)
 
-  if [$dowake != "sleeping"]; then
+  if ["$dowake" != "sleeping"]; then
     break
   else
     rtcwake -m mem -s 60
