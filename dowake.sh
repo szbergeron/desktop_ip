@@ -1,6 +1,8 @@
 #!/bin/bash
 
 rm wakeup
+
+git pull
 echo "awake" > wakeup
 
 git add -A
