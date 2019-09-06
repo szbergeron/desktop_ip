@@ -26,7 +26,7 @@ do
   if ["$dowake" != "sleeping"]; then
     break
   else
-    rtcwake -m mem -s 60
+    rtcwake -m mem -s 20
   fi
 done
 
