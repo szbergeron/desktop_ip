@@ -21,9 +21,9 @@ while true
 do
   ssh-agent bash -c 'ssh-add /home/sawyer/.ssh/id_rsa; git pull'
 
-  dowake='cat wakeup'
+  dowake=$(cat wakeup)
 
-  if [$dowake == "awake"]; then
+  if [$dowake != "sleeping"]; then
     break
   else
     rtcwake -m mem -s 60
