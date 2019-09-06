@@ -3,7 +3,7 @@
 rm wakeup
 
 git pull
-echo "awake" > wakeup
+echo "wake up" > wakeup
 
 git add -A
 git commit -m "waking up..."
