@@ -1,3 +1,5 @@
+#!/bin/bash
+
 rm wakeup
 echo "awake" > wakeup
 
