@@ -32,7 +32,7 @@ do
   elif [ "$dowake" == "awake" ]; then
     sleep 10
   else
-    rtcwake -m mem -s 90
+    rtcwake -m mem -s 300
   fi
 done
 
