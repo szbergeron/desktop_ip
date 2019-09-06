@@ -23,7 +23,13 @@ do
 
   dowake=$(cat wakeup)
 
-  if [ "$dowake" != "sleeping" ]; then
+  if [ "$dowake" == "wake up" ]; then
+    rm wakeup
+    echo "awake" > wakeup
+    git add -A
+    git commit -m "currently awake"
+    git push
+  elif [ "$dowake" == "awake" ]; then
     sleep 10
   else
     rtcwake -m mem -s 120
