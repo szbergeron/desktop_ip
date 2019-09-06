@@ -1,5 +1,7 @@
 #!/bin/bash
 
+olddir=$(pwd)
+
 rm wakeup
 
 git pull
@@ -10,3 +12,5 @@ git commit -m "sleeping..."
 git push
 
 echo "sleeping..."
+
+cd $olddir
