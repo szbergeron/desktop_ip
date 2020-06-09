@@ -13,4 +13,4 @@
 3: enp1s0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
     link/ether 1c:c1:de:32:fd:1a brd ff:ff:ff:ff:ff:ff
 4: wls7: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default qlen 1000
-    link/ether 6a:32:2a:9d:5d:1d brd ff:ff:ff:ff:ff:ff
+    link/ether 66:59:87:a1:a7:2f brd ff:ff:ff:ff:ff:ff
