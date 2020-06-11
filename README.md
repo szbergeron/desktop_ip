@@ -7,11 +7,11 @@
 2: enp2s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
     link/ether 1c:c1:de:32:fd:1b brd ff:ff:ff:ff:ff:ff
     inet 192.168.200.123/21 brd 192.168.207.255 scope global dynamic noprefixroute enp2s0
-       valid_lft 3600sec preferred_lft 3600sec
+       valid_lft 3596sec preferred_lft 3596sec
     inet6 fe80::a407:87fc:4ae4:235c/64 scope link noprefixroute 
        valid_lft forever preferred_lft forever
 3: enp1s0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
     link/ether 1c:c1:de:32:fd:1a brd ff:ff:ff:ff:ff:ff
 4: wls7: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default qlen 1000
-    link/ether a2:31:8f:76:0d:3d brd ff:ff:ff:ff:ff:ff permaddr 9c:b6:d0:e0:22:c5
+    link/ether da:f3:d6:5f:81:67 brd ff:ff:ff:ff:ff:ff permaddr 9c:b6:d0:e0:22:c5
     altname wlp96s0
