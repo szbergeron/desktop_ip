@@ -13,5 +13,5 @@
 3: enp1s0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
     link/ether 1c:c1:de:32:fd:1a brd ff:ff:ff:ff:ff:ff
 4: wls7: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN group default qlen 1000
-    link/ether ee:fd:a0:b0:98:28 brd ff:ff:ff:ff:ff:ff permaddr 9c:b6:d0:e0:22:c5
+    link/ether 22:e6:bc:32:21:31 brd ff:ff:ff:ff:ff:ff permaddr 9c:b6:d0:e0:22:c5
     altname wlp96s0
