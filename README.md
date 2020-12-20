@@ -12,6 +12,6 @@
     link/ether f8:59:71:13:4c:2d brd ff:ff:ff:ff:ff:ff
     altname wlp96s0
     inet 192.168.1.18/24 brd 192.168.1.255 scope global dynamic noprefixroute wls7
-       valid_lft 61913sec preferred_lft 61913sec
+       valid_lft 61914sec preferred_lft 61914sec
     inet6 fe80::32b7:249b:e9f9:bb0a/64 scope link noprefixroute 
        valid_lft forever preferred_lft forever
